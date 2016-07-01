@@ -1,0 +1,128 @@
+.hw1 {
+    width: 0px;
+    height: 0px;
+    border: 100px solid;
+    border-bottom-color: blue;
+    border-right-color: red;
+    border-top-color: green;
+    border-left-color: yellow;
+}
+
+.hw2 {
+    width: 0px;
+    height: 0px;
+    border: 100px solid;
+    border-right-color: blue;
+    border-top-color: azure;
+    border-left-color: darkblue;
+    border-bottom-style: none;
+    display: inline-block;
+    margin: -2px
+}
+
+.top {
+    background-color: chartreuse;
+    width: 200px;
+    height: 50px;
+    border: 5px solid green;
+    border-top-style: double;
+    border-bottom-style: dashed;
+}
+
+.down {
+    background-color: chartreuse;
+    margin-left: 25px;
+    width: 150px;
+    height: 200px;
+    border: 5px solid green;
+    border-top: none;
+}
+
+
+/*no4*/
+
+.main_frame{
+    display: inline-block;
+}
+
+.top_frame {
+    background-color: darkslategray;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border-bottom-style: none;
+}
+
+.top_frame_top {
+    padding-top: 10px;
+    font-family: fantasy;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.top_frame_center {
+    height: 85px;
+    padding-top: 15px
+}
+
+.top_frame_center_left {
+    width: 30px;
+    padding-left: 80px;
+    vertical-align: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.top_frame_center_center {
+    display: inline-block;
+    width: 10px;
+    font-size: 60px;
+    padding-left: 13px;
+    color: aliceblue;
+}
+
+.top_frame_center_right {
+    display: inline-block;
+    width: 10px;
+    color: aliceblue;
+    font-family: fantasy;
+    padding-left: 55px;
+}
+
+.top_frame_down {
+    height: 37px;
+    width: 180px;
+    margin-left: 65px;
+    font-family: sans-serif;
+    text-align-last: center;
+    line-height: 2.2;
+    color: aliceblue;
+    border: 1px outset rgba(153, 171, 190, 0.71);
+    border-radius: 5px;
+}
+
+.down_frame {
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border-top-style: none;
+    text-align: center;
+    line-height: 2.5;
+}
+
+div hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 150px;
+}
+
+span{
+    color: grey;
+    font-weight: bold;
+    
+    
+}
